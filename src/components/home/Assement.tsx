@@ -6,9 +6,9 @@ export default component$(() => {
     return (
 
     <>
-    <div class="bg-blue-100 p-6">
-<div class="flex justify-center text-3xl font-bold bg-gradient-to-r from-blue-400 to-cyan-400 bg-clip-text text-transparent">Assessment</div>
-<div class="flex flex-col gap-2 max-w-screen-lg mx-auto overflow-y-auto h-screen">
+<div class="bg-blue-100 p-6">
+      <div class="flex justify-center text-3xl font-bold bg-gradient-to-r from-blue-400 to-cyan-400 bg-clip-text text-transparent">Assessment</div>
+       <div class="flex flex-col gap-2 max-w-screen-lg mx-auto overflow-y-auto h-screen">
 
 
  <div class="bg-blue-100 p-6">
@@ -124,7 +124,7 @@ export default component$(() => {
             
 
              <div class="text-center">
-                 <Link  href="/thnk"  class="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-700">Submit Answers</Link>
+                 <Link  href="/assesment/thnk"  class="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-700">Submit Answers</Link>
              </div>
          </form>
      </div>
